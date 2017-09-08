@@ -1,0 +1,54 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <!-- this code protects against clickjacking -->
+  <style id="antiClickjack">body{display:none !important;}</style>
+  <script type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+</script>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.7 [en] (X11; U; IRIX 6.3 IP32) [Netscape]">
+   <title> Hippylib  </title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h3>
+<font face="Arial,Helvetica;color:red"></font>
+</h3>
+
+<br>
+<pr>
+
+<h2>
+<font face="Arial,Helvetica">Hippylib 
+</font>
+</h2>
+
+<b>Python Notebooks:</b>
+<br>
+<ul>
+<li> FEniCS101 notebook illustrates the use of FEniCS for the solution of a linear boundary value problem (<a href="FEniCS101.ipynb">ipynb</a>, <a href="FEniCS101.html">html</a>, <a href="FEniCS101.py"> py </a>).
+<li> UncontrainedMinimization notebook illustrates the use of FEniCS for the minimization of a non-quadratic energy functional (<a href="UnconstrainedMinimization.ipynb">ipynb</a>, <a href="UnconstrainedMinimization.html">html</a>, <a href="UnconstrainedMinimization.py"> py </a>).
+<li> PoissonDeterministic-SD notebook illustrates the solution of an inverse problem for the coefficient field of a Poisson equation, using the steepest descent method (<a href="PoissonDeterministic-SD.ipynb">ipynb</a>, <a href="PoissonDeterministic-SD.html">html</a>, <a href="PoissonDeterministic-SD.py"> py </a>).
+<li> PoissonDeterministic-InexactNewton notebook illustrates the solution of an inverse problem for the coefficient field of a Poisson equation, using the inexact Newton CG algorithm (<a href="PoissonDeterministic-InexactNewton.ipynb">ipynb</a>, <a href="PoissonDeterministic-InexactNewton.html">html</a>, <a href="PoissonDeterministic-InexactNewton.py">py</a>)
+<li> <b>HessianSpectrum</b> notebook illustrates the spectral property of the Hessian operator for a linear source inversion problem (<a href="HessianSpectrum_LinearSourceInversion.html">html</a>)
+<li> <b>AdvectionDiffusionBayesian</b> notebook illustrates how to solve a time-dependent linear inverse problem in a Bayesian setting using hIPPYlib (<a href="AdvectionDiffusionBayesian.html">html</a>, <a href="model_gls.py">py</a>)
+<li> <b>SubsurfaceBayesian</b> notebook illustrates how to solve a non-linear parameter inversion for the Poisson equation in a Bayesian setting using hIPPYlib (<a href="SubsurfaceBayesian.html">html</a>, <a href="model_subsurf.py">py</a>)
+</ul>
+
+<br> See <a href="http://ipython.org/notebook.html"> here </a> for instructions on how to use ipython notebooks (files *.ipynb).
+<br> If your system does not support ipython notebooks you can download the python scripts (files *.py).
+<br><br>
+
+<b> Notebooks utilities:</b>
+<br>
+<ul>
+<li> <a href="nb.py"> nb.py </a>: a collection of plotting utilities using matplotlib. 
+</ul>
+</body>
+</html>
